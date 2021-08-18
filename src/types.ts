@@ -377,6 +377,8 @@ export interface CustomerDetails {
   billingAddress?: Address
   /** The same object as billingAddress object, however, it is only displayed in the order details on the [merchant dashboard](https://business.revolut.com/merchant) */
   shippingAddress?: Address
+  /** merchant order details if needed */
+  merchant_order_ext_ref?: string
 }
 
 export interface CommonOptions {
